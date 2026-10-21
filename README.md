@@ -18,10 +18,10 @@ A sleek, dark-themed web application that uses Deep Learning to analyze vehicle 
 📦 Vehicle-Damage-Detector
  ┣ 📂 artifacts
  ┃ ┗ 📜 saved_model.pth          # Fine-tuned PyTorch model weights (ConvNeXT)
- ┣ 📜 main_3.py                  # Main Streamlit application frontend
+ ┣ 📜 main.py                  # Main Streamlit application frontend
  ┣ 📜 model_pipeline.py          # PyTorch model architecture and inference logic
  ┣ 📜 visual_elements_2.py       # Custom CSS injection for the UI styling`
- ┗ 📜 requirement.txt            # Python dependencies (Streamlit, Torch, Pillow)
+ ┗ 📜 requirements.txt            # Python dependencies (Streamlit, Torch, Pillow)
 ```
 
 ## 🚀 Getting Started
