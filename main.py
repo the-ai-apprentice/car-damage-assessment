@@ -55,7 +55,7 @@ with main_col:
         # Constrain image size further and center it to prevent massive scaling
         img_spacer1, img_col, img_spacer2 = st.columns([1, 2.5, 1])
         with img_col:
-            with st.container(width = 600, height = 250):
+            with st.container(width = 600, height = 300):
                 st.image(image_path, use_container_width=True)
 
         with st.spinner("Analyzing the image..."):
